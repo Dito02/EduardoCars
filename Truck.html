@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+     <head>
+		<link rel="stylesheet" href="Style/index_style.css">
+		<link rel="shortcut icon" href="logo.jpg" type="image/png">
+		<title>Eduardo A.Majano</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+<body>
+<header>Toyota Website</header>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="news.html">News</a>
+  <a href="Gallery.html">Gallery</a>
+  <div class="dropdown">
+    <button class="dropbtn"> Catalog 
+    </button>
+    <div class="dropdown-content">
+      <a href="sports.html">Sports</a>
+      <a href="SUV.html">SUV's</a>
+      <a href="Truck.html">Trucks</a>
+    </div>
+  </div> 
+  <a href="Find us.html">Find US</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<center><h1>Toyota Trucks</h1></center>
+<figure>
+  <img src="img/tacoma1.jpg"  alt="tacoma" style="width:100%">
+  <figcaption>Toyota Tacoma</figcaption>
+</figure>
+
+
+<figure>
+  <img src="img/land cruiser.jpg"  alt="land cruiser" style="width:100%">
+  <figcaption>Toyota Lande cruiser PickUP Truck</figcaption>
+</figure>
+
+
+<figure>
+  <img src="img/thundra.jpg"  alt="thundra" style="width:100%">
+  <figcaption>Toyota Thundra</figcaption>
+</figure>
+
+
+<figure>
+  <img src="img/hilux.jpg"  alt="hilux" style="width:100%">
+  <figcaption>Toyota Hilux</figcaption>
+</figure>
+
+
+
+
+<div>
+<footer id="footer"> 
+<center>
+©2021 Toyota Motor Sales, U.S.A., Inc. All information applies to U.S. vehicles only.
+</center>
+</footer>
+</div>
+	
+	 </body>
+	 
+
+</html>
